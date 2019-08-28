@@ -1,0 +1,50 @@
+{
+  "httpport":8000,
+  "pprofport":9000,
+  "tempdir":"temp",
+  "enctempdir":"enctemp",
+  "bindir":"bin",
+  "hlsinterval":10,
+  "osskeyid":"xxxx",
+  "osskeysec":"xxxx",
+  "ossendpoint":"xxxx",
+  "ossbucket":"xxxx",
+  "redishost":"127.0.0.1",
+  "redisport":6379,
+  "redispwd":"",
+  "encode_profile":[
+    {
+      "name":"360p",
+      "width": 640,
+      "height": 360,
+      "profile": "baseline",
+      "bitrate": 800,
+      "framerate": 30,
+      "ar": 44100,
+      "ab": 64,
+      "ac": 2
+    },
+    {
+      "name":"540p",
+      "width": 960,
+      "height": 540,
+      "profile": "baseline",
+      "bitrate": 1000,
+      "framerate": 30,
+      "ar": 44100,
+      "ab": 64,
+      "ac": 2
+    },
+    {
+      "name":"720p",
+      "width": 1280,
+      "height": 720,
+      "profile": "baseline",
+      "bitrate": 800,
+      "framerate": 30,
+      "ar": 44100,
+      "ab": 64,
+      "ac": 2
+    }
+  ]
+}

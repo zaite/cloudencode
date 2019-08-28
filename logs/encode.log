@@ -1,0 +1,114 @@
+2019/08/28 11:46:01 readcfg.go:43: [0;37m[info] start load configure file: conf/encode.json [0m
+2019/08/28 11:46:01 readcfg.go:56: [0;37m[info] get config json data:{Httpport:8008 Pprofport:9009 Tempdir:xxxx/temp Enctempdir:xxxx/enctemp Hlsinterval:10 Bindir:xxxx/bin Osskeyid:xxxx Osskeysec:xxxx Ossendpoint:xxxx Ossbucket:xxxx Redishost:127.0.0.1 Redisport:6379 Redispwd:Rsmt@123456 Procmax:0 Encode_profile:[{Name:360p Width:640 Height:360 Profile:baseline Bitrate:800 Framerate:30 AudioRate:44100 AudioBitrate:64 AudioChannels:2} {Name:540p Width:960 Height:540 Profile:baseline Bitrate:1000 Framerate:30 AudioRate:44100 AudioBitrate:64 AudioChannels:2} {Name:720p Width:1280 Height:720 Profile:baseline Bitrate:800 Framerate:30 AudioRate:44100 AudioBitrate:64 AudioChannels:2}]}[0m
+2019/08/28 11:46:01 redisoper.go:351: [0;37m[info] redisoper start ok: server=127.0.0.1:6379, password=Rsmt@123456[0m
+2019/08/28 11:46:01 uploadfile.go:45: [0;37m[info] uploadfile is starting: keyid=xxxx, keysec=xxxx, endpoint=xxxx, bucket=xxxx[0m
+2019/08/28 11:46:01 redisoper.go:88: [0;37m[info] redisoper onwork is starting.... [0m
+2019/08/28 11:46:01 redisoper.go:144: [0;37m[info] redisoper rpop work is starting.... [0m
+2019/08/28 11:46:01 watchfiles.go:86: [0;31m[error] ReadDir xxxx/temp error:open xxxx/temp: The system cannot find the path specified.[0m
+2019/08/28 11:46:02 redisoper.go:174: [0;31m[error] reids rpop get brpop(origin_file) error:dial tcp 127.0.0.1:6379: connectex: No connection could be made because the target machine actively refused it.[0m
+2019/08/28 11:46:03 redisoper.go:174: [0;31m[error] reids rpop get brpop(origin_file) error:dial tcp 127.0.0.1:6379: connectex: No connection could be made because the target machine actively refused it.[0m
+2019/08/28 11:46:04 redisoper.go:174: [0;31m[error] reids rpop get brpop(origin_file) error:dial tcp 127.0.0.1:6379: connectex: No connection could be made because the target machine actively refused it.[0m
+2019/08/28 11:46:05 redisoper.go:174: [0;31m[error] reids rpop get brpop(origin_file) error:dial tcp 127.0.0.1:6379: connectex: No connection could be made because the target machine actively refused it.[0m
+2019/08/28 11:46:06 redisoper.go:174: [0;31m[error] reids rpop get brpop(origin_file) error:dial tcp 127.0.0.1:6379: connectex: No connection could be made because the target machine actively refused it.[0m
+2019/08/28 11:46:07 redisoper.go:174: [0;31m[error] reids rpop get brpop(origin_file) error:dial tcp 127.0.0.1:6379: connectex: No connection could be made because the target machine actively refused it.[0m
+2019/08/28 11:46:08 redisoper.go:174: [0;31m[error] reids rpop get brpop(origin_file) error:dial tcp 127.0.0.1:6379: connectex: No connection could be made because the target machine actively refused it.[0m
+2019/08/28 11:46:09 redisoper.go:174: [0;31m[error] reids rpop get brpop(origin_file) error:dial tcp 127.0.0.1:6379: connectex: No connection could be made because the target machine actively refused it.[0m
+2019/08/28 11:46:10 redisoper.go:174: [0;31m[error] reids rpop get brpop(origin_file) error:dial tcp 127.0.0.1:6379: connectex: No connection could be made because the target machine actively refused it.[0m
+2019/08/28 11:46:11 redisoper.go:174: [0;31m[error] reids rpop get brpop(origin_file) error:dial tcp 127.0.0.1:6379: connectex: No connection could be made because the target machine actively refused it.[0m
+2019/08/28 11:46:26 readcfg.go:43: [0;37m[info] start load configure file: conf/encode.json [0m
+2019/08/28 11:46:26 readcfg.go:56: [0;37m[info] get config json data:{Httpport:8000 Pprofport:9000 Tempdir:xxxx/temp Enctempdir:xxxx/enctemp Hlsinterval:10 Bindir:xxxx/bin Osskeyid:xxxx Osskeysec:xxxx Ossendpoint:xxxx Ossbucket:xxxx Redishost:127.0.0.1 Redisport:6379 Redispwd:Rsmt@123456 Procmax:0 Encode_profile:[{Name:360p Width:640 Height:360 Profile:baseline Bitrate:800 Framerate:30 AudioRate:44100 AudioBitrate:64 AudioChannels:2} {Name:540p Width:960 Height:540 Profile:baseline Bitrate:1000 Framerate:30 AudioRate:44100 AudioBitrate:64 AudioChannels:2} {Name:720p Width:1280 Height:720 Profile:baseline Bitrate:800 Framerate:30 AudioRate:44100 AudioBitrate:64 AudioChannels:2}]}[0m
+2019/08/28 11:46:26 redisoper.go:351: [0;37m[info] redisoper start ok: server=127.0.0.1:6379, password=Rsmt@123456[0m
+2019/08/28 11:46:26 uploadfile.go:45: [0;37m[info] uploadfile is starting: keyid=xxxx, keysec=xxxx, endpoint=xxxx, bucket=xxxx[0m
+2019/08/28 11:46:26 redisoper.go:88: [0;37m[info] redisoper onwork is starting.... [0m
+2019/08/28 11:46:26 redisoper.go:144: [0;37m[info] redisoper rpop work is starting.... [0m
+2019/08/28 11:46:26 watchfiles.go:86: [0;31m[error] ReadDir xxxx/temp error:open xxxx/temp: The system cannot find the path specified.[0m
+2019/08/28 11:46:27 redisoper.go:174: [0;31m[error] reids rpop get brpop(origin_file) error:dial tcp 127.0.0.1:6379: connectex: No connection could be made because the target machine actively refused it.[0m
+2019/08/28 11:46:28 redisoper.go:174: [0;31m[error] reids rpop get brpop(origin_file) error:dial tcp 127.0.0.1:6379: connectex: No connection could be made because the target machine actively refused it.[0m
+2019/08/28 11:46:29 redisoper.go:174: [0;31m[error] reids rpop get brpop(origin_file) error:dial tcp 127.0.0.1:6379: connectex: No connection could be made because the target machine actively refused it.[0m
+2019/08/28 11:46:30 redisoper.go:174: [0;31m[error] reids rpop get brpop(origin_file) error:dial tcp 127.0.0.1:6379: connectex: No connection could be made because the target machine actively refused it.[0m
+2019/08/28 11:46:31 redisoper.go:174: [0;31m[error] reids rpop get brpop(origin_file) error:dial tcp 127.0.0.1:6379: connectex: No connection could be made because the target machine actively refused it.[0m
+2019/08/28 11:46:32 redisoper.go:174: [0;31m[error] reids rpop get brpop(origin_file) error:dial tcp 127.0.0.1:6379: connectex: No connection could be made because the target machine actively refused it.[0m
+2019/08/28 11:46:33 redisoper.go:174: [0;31m[error] reids rpop get brpop(origin_file) error:dial tcp 127.0.0.1:6379: connectex: No connection could be made because the target machine actively refused it.[0m
+2019/08/28 11:46:34 redisoper.go:174: [0;31m[error] reids rpop get brpop(origin_file) error:dial tcp 127.0.0.1:6379: connectex: No connection could be made because the target machine actively refused it.[0m
+2019/08/28 11:46:35 redisoper.go:174: [0;31m[error] reids rpop get brpop(origin_file) error:dial tcp 127.0.0.1:6379: connectex: No connection could be made because the target machine actively refused it.[0m
+2019/08/28 11:46:36 redisoper.go:174: [0;31m[error] reids rpop get brpop(origin_file) error:dial tcp 127.0.0.1:6379: connectex: No connection could be made because the target machine actively refused it.[0m
+2019/08/28 11:46:37 redisoper.go:174: [0;31m[error] reids rpop get brpop(origin_file) error:dial tcp 127.0.0.1:6379: connectex: No connection could be made because the target machine actively refused it.[0m
+2019/08/28 11:46:38 redisoper.go:174: [0;31m[error] reids rpop get brpop(origin_file) error:dial tcp 127.0.0.1:6379: connectex: No connection could be made because the target machine actively refused it.[0m
+2019/08/28 11:46:39 redisoper.go:174: [0;31m[error] reids rpop get brpop(origin_file) error:dial tcp 127.0.0.1:6379: connectex: No connection could be made because the target machine actively refused it.[0m
+2019/08/28 11:46:40 redisoper.go:174: [0;31m[error] reids rpop get brpop(origin_file) error:dial tcp 127.0.0.1:6379: connectex: No connection could be made because the target machine actively refused it.[0m
+2019/08/28 11:46:41 redisoper.go:174: [0;31m[error] reids rpop get brpop(origin_file) error:dial tcp 127.0.0.1:6379: connectex: No connection could be made because the target machine actively refused it.[0m
+2019/08/28 11:46:42 redisoper.go:174: [0;31m[error] reids rpop get brpop(origin_file) error:dial tcp 127.0.0.1:6379: connectex: No connection could be made because the target machine actively refused it.[0m
+2019/08/28 11:46:43 redisoper.go:174: [0;31m[error] reids rpop get brpop(origin_file) error:dial tcp 127.0.0.1:6379: connectex: No connection could be made because the target machine actively refused it.[0m
+2019/08/28 11:46:44 redisoper.go:174: [0;31m[error] reids rpop get brpop(origin_file) error:dial tcp 127.0.0.1:6379: connectex: No connection could be made because the target machine actively refused it.[0m
+2019/08/28 11:46:45 redisoper.go:174: [0;31m[error] reids rpop get brpop(origin_file) error:dial tcp 127.0.0.1:6379: connectex: No connection could be made because the target machine actively refused it.[0m
+2019/08/28 11:46:46 redisoper.go:174: [0;31m[error] reids rpop get brpop(origin_file) error:dial tcp 127.0.0.1:6379: connectex: No connection could be made because the target machine actively refused it.[0m
+2019/08/28 11:46:47 redisoper.go:174: [0;31m[error] reids rpop get brpop(origin_file) error:dial tcp 127.0.0.1:6379: connectex: No connection could be made because the target machine actively refused it.[0m
+2019/08/28 11:46:48 redisoper.go:174: [0;31m[error] reids rpop get brpop(origin_file) error:dial tcp 127.0.0.1:6379: connectex: No connection could be made because the target machine actively refused it.[0m
+2019/08/28 11:46:49 redisoper.go:174: [0;31m[error] reids rpop get brpop(origin_file) error:dial tcp 127.0.0.1:6379: connectex: No connection could be made because the target machine actively refused it.[0m
+2019/08/28 11:46:50 redisoper.go:174: [0;31m[error] reids rpop get brpop(origin_file) error:dial tcp 127.0.0.1:6379: connectex: No connection could be made because the target machine actively refused it.[0m
+2019/08/28 11:46:51 redisoper.go:174: [0;31m[error] reids rpop get brpop(origin_file) error:dial tcp 127.0.0.1:6379: connectex: No connection could be made because the target machine actively refused it.[0m
+2019/08/28 11:46:52 redisoper.go:174: [0;31m[error] reids rpop get brpop(origin_file) error:dial tcp 127.0.0.1:6379: connectex: No connection could be made because the target machine actively refused it.[0m
+2019/08/28 11:46:53 redisoper.go:174: [0;31m[error] reids rpop get brpop(origin_file) error:dial tcp 127.0.0.1:6379: connectex: No connection could be made because the target machine actively refused it.[0m
+2019/08/28 11:46:54 redisoper.go:174: [0;31m[error] reids rpop get brpop(origin_file) error:dial tcp 127.0.0.1:6379: connectex: No connection could be made because the target machine actively refused it.[0m
+2019/08/28 11:46:55 redisoper.go:174: [0;31m[error] reids rpop get brpop(origin_file) error:dial tcp 127.0.0.1:6379: connectex: No connection could be made because the target machine actively refused it.[0m
+2019/08/28 11:46:56 redisoper.go:174: [0;31m[error] reids rpop get brpop(origin_file) error:dial tcp 127.0.0.1:6379: connectex: No connection could be made because the target machine actively refused it.[0m
+2019/08/28 11:47:42 readcfg.go:43: [0;37m[info] start load configure file: conf/encode.json [0m
+2019/08/28 11:47:42 readcfg.go:56: [0;37m[info] get config json data:{Httpport:8000 Pprofport:9000 Tempdir:temp Enctempdir:enctemp Hlsinterval:10 Bindir:bin Osskeyid:xxxx Osskeysec:xxxx Ossendpoint:xxxx Ossbucket:xxxx Redishost:127.0.0.1 Redisport:6379 Redispwd:Rsmt@123456 Procmax:0 Encode_profile:[{Name:360p Width:640 Height:360 Profile:baseline Bitrate:800 Framerate:30 AudioRate:44100 AudioBitrate:64 AudioChannels:2} {Name:540p Width:960 Height:540 Profile:baseline Bitrate:1000 Framerate:30 AudioRate:44100 AudioBitrate:64 AudioChannels:2} {Name:720p Width:1280 Height:720 Profile:baseline Bitrate:800 Framerate:30 AudioRate:44100 AudioBitrate:64 AudioChannels:2}]}[0m
+2019/08/28 11:47:42 redisoper.go:351: [0;37m[info] redisoper start ok: server=127.0.0.1:6379, password=Rsmt@123456[0m
+2019/08/28 11:47:42 uploadfile.go:45: [0;37m[info] uploadfile is starting: keyid=xxxx, keysec=xxxx, endpoint=xxxx, bucket=xxxx[0m
+2019/08/28 11:47:42 redisoper.go:88: [0;37m[info] redisoper onwork is starting.... [0m
+2019/08/28 11:47:42 redisoper.go:144: [0;37m[info] redisoper rpop work is starting.... [0m
+2019/08/28 11:47:42 watchfiles.go:86: [0;31m[error] ReadDir temp error:open temp: The system cannot find the file specified.[0m
+2019/08/28 11:47:43 redisoper.go:174: [0;31m[error] reids rpop get brpop(origin_file) error:dial tcp 127.0.0.1:6379: connectex: No connection could be made because the target machine actively refused it.[0m
+2019/08/28 11:47:44 redisoper.go:174: [0;31m[error] reids rpop get brpop(origin_file) error:dial tcp 127.0.0.1:6379: connectex: No connection could be made because the target machine actively refused it.[0m
+2019/08/28 11:47:45 redisoper.go:174: [0;31m[error] reids rpop get brpop(origin_file) error:dial tcp 127.0.0.1:6379: connectex: No connection could be made because the target machine actively refused it.[0m
+2019/08/28 11:58:27 readcfg.go:43: [0;37m[info] start load configure file: conf/encode.json [0m
+2019/08/28 11:58:27 readcfg.go:56: [0;37m[info] get config json data:{Httpport:8000 Pprofport:9000 Tempdir:temp Enctempdir:enctemp Hlsinterval:10 Bindir:bin Osskeyid:xxxx Osskeysec:xxxx Ossendpoint:xxxx Ossbucket:xxxx Redishost:127.0.0.1 Redisport:6379 Redispwd: Procmax:0 Encode_profile:[{Name:360p Width:640 Height:360 Profile:baseline Bitrate:800 Framerate:30 AudioRate:44100 AudioBitrate:64 AudioChannels:2} {Name:540p Width:960 Height:540 Profile:baseline Bitrate:1000 Framerate:30 AudioRate:44100 AudioBitrate:64 AudioChannels:2} {Name:720p Width:1280 Height:720 Profile:baseline Bitrate:800 Framerate:30 AudioRate:44100 AudioBitrate:64 AudioChannels:2}]}[0m
+2019/08/28 11:58:27 redisoper.go:351: [0;37m[info] redisoper start ok: server=127.0.0.1:6379, password=[0m
+2019/08/28 11:58:27 uploadfile.go:45: [0;37m[info] uploadfile is starting: keyid=xxxx, keysec=xxxx, endpoint=xxxx, bucket=xxxx[0m
+2019/08/28 11:58:27 redisoper.go:88: [0;37m[info] redisoper onwork is starting.... [0m
+2019/08/28 11:58:27 redisoper.go:144: [0;37m[info] redisoper rpop work is starting.... [0m
+2019/08/28 11:58:27 watchfiles.go:86: [0;31m[error] ReadDir temp error:open temp: The system cannot find the file specified.[0m
+2019/08/28 12:00:17 readcfg.go:43: [0;37m[info] start load configure file: conf/encode.json [0m
+2019/08/28 12:00:17 readcfg.go:56: [0;37m[info] get config json data:{Httpport:8000 Pprofport:9000 Tempdir:temp Enctempdir:enctemp Hlsinterval:10 Bindir:bin Osskeyid:xxxx Osskeysec:xxxx Ossendpoint:xxxx Ossbucket:xxxx Redishost:127.0.0.1 Redisport:6379 Redispwd: Procmax:0 Encode_profile:[{Name:360p Width:640 Height:360 Profile:baseline Bitrate:800 Framerate:30 AudioRate:44100 AudioBitrate:64 AudioChannels:2} {Name:540p Width:960 Height:540 Profile:baseline Bitrate:1000 Framerate:30 AudioRate:44100 AudioBitrate:64 AudioChannels:2} {Name:720p Width:1280 Height:720 Profile:baseline Bitrate:800 Framerate:30 AudioRate:44100 AudioBitrate:64 AudioChannels:2}]}[0m
+2019/08/28 12:00:17 redisoper.go:351: [0;37m[info] redisoper start ok: server=127.0.0.1:6379, password=[0m
+2019/08/28 12:00:17 uploadfile.go:45: [0;37m[info] uploadfile is starting: keyid=xxxx, keysec=xxxx, endpoint=xxxx, bucket=xxxx[0m
+2019/08/28 12:00:17 redisoper.go:88: [0;37m[info] redisoper onwork is starting.... [0m
+2019/08/28 12:00:17 redisoper.go:144: [0;37m[info] redisoper rpop work is starting.... [0m
+2019/08/28 12:00:17 watchfiles.go:86: [0;31m[error] ReadDir temp error:open temp: The system cannot find the file specified.[0m
+2019/08/28 12:01:17 redisoper.go:180: [0;31m[error] redisoper rpop error:redigo: nil returned[0m
+2019/08/28 12:02:17 redisoper.go:180: [0;31m[error] redisoper rpop error:redigo: nil returned[0m
+2019/08/28 12:03:17 redisoper.go:180: [0;31m[error] redisoper rpop error:redigo: nil returned[0m
+2019/08/28 12:04:17 redisoper.go:180: [0;31m[error] redisoper rpop error:redigo: nil returned[0m
+2019/08/28 12:05:17 redisoper.go:180: [0;31m[error] redisoper rpop error:redigo: nil returned[0m
+2019/08/28 12:06:17 redisoper.go:180: [0;31m[error] redisoper rpop error:redigo: nil returned[0m
+2019/08/28 12:07:17 redisoper.go:180: [0;31m[error] redisoper rpop error:redigo: nil returned[0m
+2019/08/28 12:08:17 redisoper.go:180: [0;31m[error] redisoper rpop error:redigo: nil returned[0m
+2019/08/28 12:09:18 redisoper.go:180: [0;31m[error] redisoper rpop error:redigo: nil returned[0m
+2019/08/28 12:10:18 redisoper.go:180: [0;31m[error] redisoper rpop error:redigo: nil returned[0m
+2019/08/28 12:11:18 redisoper.go:180: [0;31m[error] redisoper rpop error:redigo: nil returned[0m
+2019/08/28 12:12:18 redisoper.go:180: [0;31m[error] redisoper rpop error:redigo: nil returned[0m
+2019/08/28 12:13:18 redisoper.go:180: [0;31m[error] redisoper rpop error:redigo: nil returned[0m
+2019/08/28 12:14:18 redisoper.go:180: [0;31m[error] redisoper rpop error:redigo: nil returned[0m
+2019/08/28 12:15:18 redisoper.go:180: [0;31m[error] redisoper rpop error:redigo: nil returned[0m
+2019/08/28 12:16:18 redisoper.go:180: [0;31m[error] redisoper rpop error:redigo: nil returned[0m
+2019/08/28 12:17:18 redisoper.go:180: [0;31m[error] redisoper rpop error:redigo: nil returned[0m
+2019/08/28 12:18:18 redisoper.go:180: [0;31m[error] redisoper rpop error:redigo: nil returned[0m
+2019/08/28 12:19:18 redisoper.go:180: [0;31m[error] redisoper rpop error:redigo: nil returned[0m
+2019/08/28 12:20:18 redisoper.go:180: [0;31m[error] redisoper rpop error:redigo: nil returned[0m
+2019/08/28 12:21:18 redisoper.go:180: [0;31m[error] redisoper rpop error:redigo: nil returned[0m
+2019/08/28 12:22:18 redisoper.go:180: [0;31m[error] redisoper rpop error:redigo: nil returned[0m
+2019/08/28 12:23:18 redisoper.go:180: [0;31m[error] redisoper rpop error:redigo: nil returned[0m
+2019/08/28 12:24:18 redisoper.go:180: [0;31m[error] redisoper rpop error:redigo: nil returned[0m
+2019/08/28 12:25:18 redisoper.go:180: [0;31m[error] redisoper rpop error:redigo: nil returned[0m
+2019/08/28 12:26:18 redisoper.go:180: [0;31m[error] redisoper rpop error:redigo: nil returned[0m
+2019/08/28 12:27:18 redisoper.go:180: [0;31m[error] redisoper rpop error:redigo: nil returned[0m
+2019/08/28 12:28:18 redisoper.go:180: [0;31m[error] redisoper rpop error:redigo: nil returned[0m
+2019/08/28 12:29:18 redisoper.go:180: [0;31m[error] redisoper rpop error:redigo: nil returned[0m
+2019/08/28 12:30:18 redisoper.go:180: [0;31m[error] redisoper rpop error:redigo: nil returned[0m
+2019/08/28 12:31:18 redisoper.go:180: [0;31m[error] redisoper rpop error:redigo: nil returned[0m
+2019/08/28 12:32:18 redisoper.go:180: [0;31m[error] redisoper rpop error:redigo: nil returned[0m
+2019/08/28 12:33:18 redisoper.go:180: [0;31m[error] redisoper rpop error:redigo: nil returned[0m
+2019/08/28 12:34:18 redisoper.go:180: [0;31m[error] redisoper rpop error:redigo: nil returned[0m
+2019/08/28 12:35:18 redisoper.go:180: [0;31m[error] redisoper rpop error:redigo: nil returned[0m
+2019/08/28 12:36:18 redisoper.go:180: [0;31m[error] redisoper rpop error:redigo: nil returned[0m
