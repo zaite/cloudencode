@@ -1,3 +1,2 @@
-bin/*
 /bin/ffmpeg
-/logs/*.log
+/logs/encode.log
